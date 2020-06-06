@@ -74,7 +74,7 @@ public class SC_CameraControl : MonoBehaviour
 
     private float FindRequiredSize()
     {
-        // InverseTransformPoint 월드 영역의 정점을 뷰포트 영역의 정점으로 변환한다.
+        // InverseTransformPoint 월드 영역의 정점을 부모 로컬 영역의 정점으로 변환한다.
         Vector3 desiredLocalPos = transform.InverseTransformPoint(m_DesiredPosition);
 
         float size = 0f;
