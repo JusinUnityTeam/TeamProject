@@ -12,10 +12,14 @@ public class CTankMovement : MonoBehaviour
     private float m_fRotate;
     private Rigidbody m_TankRigidbody; // 플레이어 캐릭터의 리지드바디
 
+    private Transform m_CameraVector;      // 카메라 벡터.
+    private Vector3 MovePos;    // 플레이어 움직임에 대한 변수.
+
     // Start is called before the first frame update
     void Start()
     {
         m_TankRigidbody = GetComponent<Rigidbody>();
+        m_CameraVector = GameObject.Find("CameraVector").transform;
     }
 
     // Update is called once per frame
