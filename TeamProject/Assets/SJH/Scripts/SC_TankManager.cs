@@ -7,7 +7,7 @@ using UnityEngine;
 namespace Complete
 {
     [Serializable]
-    public class SC_TankManager : MonoBehaviour
+    public class SC_TankManager
     {
         public Color m_PlayerColor;
         public Transform m_SpawnPoint;

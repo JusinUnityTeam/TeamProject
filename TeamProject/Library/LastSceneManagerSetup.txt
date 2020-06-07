@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/SJH/Level/LV_Play2.unity
+- path: Assets/SJH/Level/LV_Menu.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
